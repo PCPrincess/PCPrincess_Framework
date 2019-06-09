@@ -1,0 +1,152 @@
+/*
+  Font Awesome: https://fontawesome.com/?from=io
+  We Love Icon Fonts: http://weloveiconfonts.com/
+  Unicode Character Table: https://unicode-table.com/en/
+  IcoMoon APP: https://icomoon.io/app/#/select
+*/
+
+/* Icon Fonts - Imported and Ready to Use */
+@import url(http://weloveiconfonts.com/api/?family=chooseFontHere);
+
+[class*="chooseFontHere-"]:before {
+  display: inline-block;
+  font-family: 'chooseFontHere', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 20vw;
+}
+
+li { /* <li class="chooseFontHere-Twitter">Twitter</li> */
+  font-size: 10vw;
+  list-style: none;
+  margin: 3vw 0;
+  padding-left: 100px;
+}
+
+/* Icon Fonts - Used Locally in My Files */
+@font-face {
+    font-family: 'LindenHill';
+    src: url('../Fonts/LindenHill.eot');
+    src: url('../Fonts/LindenHill.eot') format('embedded-opentype'),
+         url('../Fonts/LindenHill.woff2') format('woff2'),
+         url('../Fonts/LindenHill.woff') format('woff'),
+         url('../Fonts/LindenHill.ttf') format('truetype'),
+         url('../Fonts/LindenHill.svg#LindenHill') format('svg');
+    font-family: "teen";
+    src: url("../Fonts/teen.ttf");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid cadetblue;
+  border-bottom: 5px solid cadetblue;
+}
+
+/* WRITE YOUR CODE BELOW HERE - Normally, I'd Attempt to 
+   Simplify Code and Reduce Repetitiveness */
+
+h1 {
+  font-family: "LindenHill";
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+body {
+  font-family: "teen";
+  line-height: 1.25rem;
+}
+
+a {
+  color: cadetblue;  
+  outline: none;
+}
+
+a:link {  
+  text-decoration-style: solid;
+  text-decoration: blue;
+}
+
+a:visited {
+  text-decoration: red;  
+}
+
+a:focus {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;           
+}
+
+a:active {
+  text-decoration: darkblue;
+}
+
+nav li {  
+  text-align: center;
+  text-decoration: none;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  line-height: 1.5rem;
+  border: 1px solid;
+  border-radius: 0.5rem;
+  list-style: none;
+  margin-bottom: 2rem;  
+}
+
+nav li a {
+  text-decoration: none;
+}
+
+nav li:hover {
+  background-color: rgba(10, 225, 225, 0.5);
+}
+
+/* Add Icons to Links (in this case, outgoing http links) */
+a[href*="http"] {
+    background: url("https://github.com/PCPrincess/WebDev/blob/master/Media/pixelophilia_2_by_omercetin/link.png?raw=true") no-repeat 100% 0;
+    /* Use Selected Icon @ 100,0 From Top-Left */
+    background-size: 16px 16px;
+    padding-right: 19px; 
+}
+
+/* Using Pre-Designed Icon Fonts, like Font Awesome */
+/* <i class="fa fa-youtube-play"></i> */
+.fa {
+  color: pink;
+}

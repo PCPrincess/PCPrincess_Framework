@@ -1,0 +1,47 @@
+/* *************  DIVIDERS  ************* */
+
+.hr {
+  background-color: whitesmoke;
+  border: none;
+  display: block;
+  height: 2px;
+  margin: 1.5rem 0; }
+
+.vert-separator {
+  width: 3px;
+  height: 116px;
+  margin: 0 10px;
+  background-image: linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,.35), hsla(0,0%,100%,0)),
+  linear-gradient(hsla(211,79%,6%,0), hsla(211,79%,6%,.2), hsla(211,79%,6%,0)),
+  linear-gradient(hsla(0,0%,100%,0), hsla(0,0%,100%,.35), hsla(0,0%,100%,0));
+  background-position: left top, center, right bottom;
+  background-size: 1px auto;
+  background-repeat: no-repeat;
+}
+.dropdown-divider {
+  height: 1px;
+  margin: 0.5rem 0;
+  overflow: hidden;
+  background-color: #e5e5e5;
+}
+
+.vert-divider {
+  height: inherit;
+  width: 1px;
+  background-color: white;
+  background-image: linear-gradient(to bottom, lightgray, white);
+}
+
+.navbar-divider {
+  float: left;
+  width: 1px;
+  padding-top: 0.425rem;
+  padding-bottom: 0.425rem;
+  margin-right: 1rem;
+  margin-left: 1rem;
+  overflow: hidden;
+}
+
+.navbar-divider::before {
+  content: "\00a0";
+}

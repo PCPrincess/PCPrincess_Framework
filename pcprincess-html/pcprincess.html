@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Formatting and Parsing @ http://microformats.org/wiki/Main_Page -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="author" content="PCPrincess">
+    <meta name="description" content="">
+    <!-- Open Graph protocol for Facebook links
+        More Properties @ http://ogp.me/ -->
+    <meta name="og:title" content="">
+    <meta name="og:type" content="">
+    <meta name="og:image" content="">
+    <meta name="og:url" content="">
+    <meta name="og:site_name" content="">
+    <meta name="og:description" content="">
+    <!-- Twitter's' proprietary metadata for links -->
+    <meta name="twitter:title" content="">
+
+    <!-- Disable tap highlight on IE -->
+    <meta name="msapplication-tap-highlight" content="no">
+
+    <!-- Web Application Manifest -->
+    <link rel="manifest" href="manifest.json">
+
+    <!-- Add to homescreen for Chrome on Android -->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Web Starter Kit">
+    <link rel="icon" sizes="192x192" href="images/touch/chrome-touch-icon-192x192.png">
+
+    <!-- Add to homescreen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Web Starter Kit">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+
+    <!-- Tile icon for Win8 (144x144 + tile color) -->
+    <!--Update with Windows 10 Meta-->
+    <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+
+    <!-- Color the status bar on mobile devices -->
+    <meta name="theme-color" content="#2F3BA2">
+
+    <link rel="shortcut-icon" href="" type="image/x-icon">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <title>Dissident's Oclock</title>
+</head>
+
+<body>
+<header>
+    <nav>
+        <ul>
+            <li><a href="#">Nav Link</a> </li>
+            <li><a href="#">Nav Link</a> </li>
+        </ul>
+        <form>
+            <input type="search" name="name" placeholder="search query">
+            <input type="submit" value="Search">
+        </form>
+    </nav>
+</header>
+<main>
+    <h1>Hello World!</h1>
+    <article>
+        <p>
+            <a href="http://SomeURL" title="Some Hover Text">Some Underlined Text</a>
+        </p>
+        <h3 id="I'm a Document Fragment">ID's are used in place of the old 'anchors' in
+            HTML. Those anchors are the source of the 'a' in 'a href'. In order to <u>link</u>
+            back to the Document Fragment, you reference it in an 'a href' tag and include
+            the id preceded by a hash.</h3>
+        <p>
+            The <a href="#I'm a Document Fragment">Document Fragment</a> can be found at
+            above.
+        </p>
+        <blockquote cite="https://developer.mozilla.org/en-US/Learn/HTML/Introduction_to_HTML/Advanced_text_formatting">
+            <p>If a section of block level content (be it a paragraph, multiple paragraphs, a
+                list, etc.) is quoted from somewhere else, you should wrap it inside a blockquote
+                element to signify this, and include a URL pointing to the source of the
+                quote inside a cite attribute.</p>
+        </blockquote>
+        <p>Also, <abbr title="Abbreviations">abbr.</abbr> can be hovered over to 'see' the full word.
+        </p>
+    </article>
+    <article>
+        <p>
+            <!-- The image element is 'empty', i.e., no text, no closing tag. However, they do use
+                 attributes, e.g. 'src' -->
+            Images:
+            <img src="" alt ="A Star" width="32" height="32" title="Star">
+            <!-- CSS Background Images are preferred for decorative images -->
+        </p>
+        <p>
+            Figures:
+            <figure>
+                <img src="" width="100" height="100" />
+                <figcaption><b>Or, for those who don't understand humor; Texas sucks and corporations suck.</b></figcaption>
+            </figure>
+        </p>
+        <p>
+            Video:
+            <!-- The 'controls' attribute tells the browser to use it's own defined video controls -->
+            <!-- Other ATTRIBUTES for the video element:
+                  width and height, autoplay, loop, muted, poster (all self-explanatory except poster, which
+                  is an attribute that has an URL image value that supplies an image to show before the
+                  video starts) -->
+            <video controls>
+                <source src="" type="video/webm">
+                <source src="" type="video/mp4">
+            </video>
+        </p>
+
+        <p>This is the 'FallBack' in the event that a browser does not support the video element.
+            A link should be provided to the video instead: <a href="">Click Here For Video</a>
+        </p>
+        <!-- For specific (advanced) information on audio/video browser support:
+          https://developer.mozilla.org/en-US/docs/Web/HTML/Supported_media_formats#Browser_compatibility -->
+
+        <p>
+            Audio:
+            <!-- SAME as Video, EXCEPT: no visual component, therefore, no width, height, or poster attributes -->
+            <audio controls>
+                <source src="" type="audio/mp3" />
+                <source src="" type="audio/ogg" />
+            </audio>
+        </p>
+    </article>
+    <section>
+        <p>
+            SCRIPTING - HTML Supporting Elements
+            <script src="" type="" integrity="" crossorigin=""></script> <!-- Boolean Attributes: async, defer -->
+        <p>
+            Script Type Unsupported/Turned Off?
+        <noscript>
+            <!-- anchor linking to external file -->
+            <a href="http://www.mozilla.com/">External Link</a>
+        </noscript>
+        <p>Rocks!</p>
+        </p>
+        Canvas - Scripted Graphics
+        <canvas id="canvas" width="25" height="25">Alt descriptive text of what the canvas displays</canvas>
+        <!-- 'moz-opaque' is a boolean to instruct the browser for NO transparency, otherwise, leave out -->
+    </section>
+    <span class="css-span-target">I'm Used Inline</span>
+    <div class="css-div-target">I'm Used As A Block</div>
+    <aside>
+        <h3>Sidebar</h3>
+        <ul>
+            <li><a href="#">Related Content</a></li>
+            <li><a href="#">Other Articles</a></li>
+            <li><a href="https://developer.mozilla.org/en-US/Learn/HTML/Introduction_to_HTML/Document_and_website_structure">Where I Learned This</a></li>
+        </ul>
+    </aside>
+</main>
+<footer>
+
+</footer>
+<!-- Script elements placed at the end of the 'body' ensure that all HTML is read
+     by the browser before javascript is activated ON it. Javascript files may
+     be linked to by 'src' or placed within the script tags on the page. -->
+
+<!--BootStrap Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src=""></script>
+</body>
+</html>

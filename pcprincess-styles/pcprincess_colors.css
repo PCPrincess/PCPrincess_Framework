@@ -1,0 +1,13 @@
+.bg-color1 { background-color: #cfc; }
+.bg-color2 { background-color: #E6EBE6; }
+.bg-color3 { background-color: #F7F7F7; }
+.bg-color4 { background-color: #E6E7E8; }
+.bg-color-moz {background-color: hsl(0,0%,95%); }
+
+.border-color1 { border-bottom: 1px solid #E8E8E8; }
+
+
+/* Info: The Colors Used by Bootstrap For
+    info >   background-color: #5bc0de;
+    danger > background-color: #d9534f;
+*/

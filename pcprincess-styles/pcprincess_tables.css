@@ -1,0 +1,10 @@
+/* ************* TABLES ************* */
+.collapse {
+  border-collapse: collapse;
+}
+.separate {
+  border-collapse: separate;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}

@@ -1,0 +1,73 @@
+
+/*
+ Fonts CSS - Best in Separate File
+ Font Awesome (http://fortawesome.github.com/Font-Awesome/)
+ Font Awesome More (http://gregoryloucas.github.com/Font-Awesome-More/)
+ We Love Icon Fonts: http://weloveiconfonts.com/
+ Unicode Character Table: https://unicode-table.com/en/
+ IcoMoon APP: https://icomoon.io/app/#/select
+
+ Current Font Files Located At:
+ C:\Users\Lori\Documents\Code\WebWorkspace\Media\Fonts
+
+ UNICODE CHARACTER SET
+ https://unicode-table.com/en/                                          */
+
+
+@import url(http://fonts.googleapis.com/css?family=Josefin+Sans);
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+.raleway {
+  font-family: 'Raleway', sans-serif;
+}
+
+.josefin {
+  font-family: 'Josefin Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+/*  If Using Special Font-Faces: (Insert Chosen Font) */
+@font-face {
+  font-family: 'LindenHill';
+  src: url('../Fonts/LindenHill.eot');
+  src: url('../Fonts/LindenHill.eot') format('embedded-opentype'),
+  url('../Fonts/LindenHill.woff2') format('woff2'),
+  url('../Fonts/LindenHill.woff') format('woff'),
+  url('../Fonts/LindenHill.ttf') format('truetype'),
+  url('../Fonts/LindenHill.svg#LindenHill') format('svg');
+}
+
+@font-face {
+  font-family: 'teen';
+  src: url("../Fonts/teen.ttf") format('truetype');
+}
+
+@font-face {
+  font-family: 'Playfair Display SC', serif;
+  src: url("../Fonts/PlayfairDisplaySC-Regular.ttf") format('truetype');
+}
+
+/*
+  Font Awesome: https://fontawesome.com/?from=io
+  We Love Icon Fonts: http://weloveiconfonts.com/
+  Unicode Character Table: https://unicode-table.com/en/
+  IcoMoon APP: https://icomoon.io/app/#/select
+*/
+
+/* Icon Fonts - Imported and Ready to Use */
+@import url(http://weloveiconfonts.com/api/?family=chooseFontHere);
+
+[class*="chooseFontHere-"]:before {
+  display: inline-block;
+  font-family: 'chooseFontHere', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 20vw;
+}
+
+li { /* <li class="chooseFontHere-Twitter">Twitter</li> */
+  font-size: 10vw;
+  list-style: none;
+  margin: 3vw 0;
+  padding-left: 100px;
+}
+

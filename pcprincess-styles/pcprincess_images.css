@@ -1,0 +1,47 @@
+
+/* *************  IMAGES  ************* */
+.clip-to-padding { background-clip: padding-box; }
+.clip-to-content { background-clip: content-box; }
+.img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 0.25rem;
+  -webkit-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  max-width: 100%;
+  height: auto;
+}
+
+/*  Images w/Links or Text, Method 1 (All) */
+
+#idname::before {
+  content: url("path/to/image.png");
+}
+
+#idname::after {
+  content: url("path/to/image.png");
+}
+
+/* Images w/Links or Text, Method 2 (Links) */
+a[href*="http"] {
+  background: url("https://github.com/PCPrincess/WebDev/blob/master/Media/pixelophilia_2_by_omercetin/link.png?raw=true") no-repeat 100% 0;
+   /* NOTE: 100% 0 (means) Use Selected Icon @ 100,0 From Top-Left */
+  background-size: 16px 16px;
+  padding-right: 19px;
+}
+
+/* ************ BORDER IMAGES ************ */
+#img-border-top {   /*  These 'WRAP' a CONTAINER (put container inside)  */
+  overflow: hidden;
+  background: #FFFFFF url(images/bg-top.png) repeat-x left top;
+}
+#img-border-btm {
+  overflow: hidden;
+  padding: 5em 0em;
+  background: url(images/bg-btm.png) repeat-x left bottom;
+}
+
+/* Backgound Cover Settings (I Think!) */
+

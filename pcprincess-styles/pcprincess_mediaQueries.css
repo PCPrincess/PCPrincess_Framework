@@ -1,0 +1,164 @@
+/*  These Queries are Starters - Credit: Bulmaswatch  https://jenil.github.io/bulmaswatch/  */
+
+
+@media screen and (max-width: 768px) {
+  .className {
+    text-align: center !important; } }
+
+@media screen and (min-width: 769px), print {
+  .modal-content,
+  .modal-card {
+    margin: 0 auto;
+    max-height: calc(100vh - 40px);
+    width: 640px;
+  }
+  .className {
+    text-align: center !important; } }
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .className {
+    text-align: center !important; } }
+
+@media screen and (max-width: 1087px) {
+  .className {
+    text-align: center !important; } }
+
+@media screen and (min-width: 1088px) {
+  .className {
+    text-align: center !important; } }
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .container {
+    max-width: 960px;
+    width: 960px;
+  }
+  .className {
+    text-align: center !important; } }
+
+@media screen and (min-width: 1280px) {
+  .container {
+    max-width: 1152px;
+    width: 1152px;
+  }
+  .className {
+    text-align: center !important; } }
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .className {
+    text-align: center !important; } }
+
+@media screen and (min-width: 1472px) {
+  .container {
+    max-width: 1344px;
+    width: 1344px;
+  }
+  .className {
+    text-align: center !important; } }
+
+@media screen and (max-width: 768px) {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (min-width: 769px), print {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (max-width: 1087px) {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (min-width: 1088px) {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (min-width: 1280px) {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (min-width: 1472px) {
+  .className {
+    text-align: justify !important; } }
+
+@media screen and (max-width: 768px) {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (min-width: 769px), print {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (max-width: 1087px) {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (min-width: 1088px) {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (min-width: 1280px) {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (min-width: 1472px) {
+  .className {
+    text-align: left !important; } }
+
+@media screen and (max-width: 768px) {
+  .className {
+    text-align: right !important; } }
+
+@media screen and (min-width: 769px), print {
+  .className {
+    text-align: right !important; } }
+
+@media screen and (min-width: 769px) and (max-width: 1087px) {
+  .className {
+    text-align: right !important; } }
+
+@media screen and (max-width: 1087px) {
+  .className {
+    text-align: right !important; } }
+
+@media screen and (min-width: 1088px) {
+  .className {
+    text-align: right !important; } }
+
+@media screen and (min-width: 1088px) and (max-width: 1279px) {
+  .className {
+    text-align: right !important; } }
+
+@media screen and (min-width: 1280px) {
+  .className {
+    text-align: right !important; } }
+
+@media screen and (min-width: 1280px) and (max-width: 1471px) {
+  .className {
+    text-align: right !important; } }
+
+@media screen and (min-width: 1472px) {
+  .className {
+    text-align: right !important; } }
